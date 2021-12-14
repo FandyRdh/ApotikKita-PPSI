@@ -1,0 +1,319 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  /* overflow: hidden; Hide scrollbars */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  box-shadow: -1px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: "Comfortaa", cursive;
+  font-size: 22px;
+  color: #0275d8 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+  text-transform: capitalize;
+  margin-right: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+}
+
+.btnku:hover {
+  color: #0275d8 !important;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #0275d8;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.tombol {
+  /* padding: 7px 22px 1px 22px; */
+  text-transform: uppercase;
+  border-radius: 40px;
+  color: white !important;
+  font-weight: 500;
+}
+
+/* branding */
+.branding {
+  margin-top: 70px;
+}
+
+.gambar1 {
+  border-radius: 5px;
+  /* width: 430px; */
+  /* height: auto; */
+}
+
+.desk1 {
+  text-align: justify;
+}
+
+/* service */
+.Service {
+  margin-top: 50px;
+  background-color: #f8f9fd;
+  height: 500px;
+}
+
+.Judul-LK {
+  text-align: center;
+  padding-top: 27px;
+  margin-bottom: 35px;
+}
+
+.card {
+  margin-left: 15px;
+}
+
+/* Footter */
+.Footer {
+  height: 70px;
+  margin-top: 0px;
+  margin-bottom: -300px;
+  background-color: #4b4f52;
+}
+
+.Copyright {
+  color: white;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: super;
+}
+
+.Icon-footer {
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 17px;
+  vertical-align: middle;
+  color: white !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.sosmed-footer {
+  margin-top: 18px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.ig:hover {
+  margin-top: 18px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  content: url("../img/Sosmed/Hover/ig.png");
+}
+
+.fb:hover {
+  margin-top: 18px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  content: url("../img/Sosmed/Hover/fb.png");
+}
+
+.wa:hover {
+  margin-top: 18px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  content: url("../img/Sosmed/Hover/wa.png");
+}
+
+/* About Page */
+.judul-halaman {
+  margin-top: 45px;
+}
+
+.About {
+  margin-top: 45px;
+  margin-bottom: 70px;
+}
+
+.desk-about {
+  text-align: justify;
+}
+
+.about1 {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* about2 */
+.konten2 {
+  background-color: #f8f9fd;
+}
+
+.About2 {
+  padding-top: 100px;
+  margin-top: 35px;
+  padding-bottom: 40px;
+}
+
+.desk-about2 {
+  text-align: justify;
+}
+
+.about2-img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* about3 */
+.konten3 {
+  background-color: white;
+}
+
+.About3 {
+  padding-top: 80px;
+  margin-top: 35px;
+  padding-bottom: 50px;
+}
+
+.desk-about3 {
+  text-align: justify;
+}
+
+.about3-img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Alamat */
+.alamat {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transition {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.img-responsive {
+  width: 100%;
+}
+
+/* --------- Simple Zoom Effects ----------*/
+.product-div1 {
+  position: relative;
+  overflow: hidden;
+}
+.product-div1:hover img {
+  transform: scale(1.1);
+}
+img {
+  transform: scale(1);
+}
+
+/* overlay */
+/* --------- Text View ----------*/
+.product-div2 {
+  position: relative;
+  overflow: hidden;
+}
+.product-div2:hover .text-view {
+  top: 50%;
+  opacity: 1;
+}
+.product-div2:hover img {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.text-view {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.map-hover {
+  color: black;
+}
+
+.link-navigasi:hover {
+  text-decoration: none;
+  color: #0275d8;
+}
+
+.txt-kontak {
+  text-align: start;
+}
+
+/* Login Page */
+
+.login-page {
+  overflow: hidden;
+}
+
+.login-page .nav-login {
+  box-shadow: none;
+}
+
+.login {
+  /* height: 709px; */
+  background-color: white;
+  /* background: url(../img/Apotik/bg-login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.jumbotron {
+  background-image: url(../img/Apotik/carousel-3.jpg);
+  background-size: cover;
+  height: 707px;
+}
+
+.Input-Form {
+  /* background-color: white; */
+  height: 660px;
+}
+
+.Icon-Login {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 100px;
+  color: #0275d8 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.txt-Welcome {
+  font-family: "Comfortaa", cursive;
+  font-size: 40px;
+  text-align: left;
+  margin-top: -25px;
+  color: black !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.form-box {
+  width: 50%;
+}
+
+.btn-login {
+  width: 50%;
+}
+
+.Lupa-Passowrd {
+  color: #0275d8 !important;
+}
